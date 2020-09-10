@@ -7,9 +7,13 @@ export default function App() {
     <div className="App">
       <h1>Weather App</h1>
       <WeatherSearch />
-      <a target="_blank" href="https://github.com/johannamag/weather-react">
-        <button>Github</button>
-      </a>
+      <form
+        method="get"
+        action="https://github.com/johannamag/weather-react"
+        target="_blank"
+      >
+        <input class="button" type="submit" value="Github" />
+      </form>
     </div>
   );
 }
